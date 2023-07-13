@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     background-color: rgb(73, 72, 72);
+  padding-left: 80px;
 
 
 }
@@ -72,12 +73,14 @@
     color: white;
     display: flex;
    padding: 25px;
-    justify-content: space-around;
+   
+    align-items: center;
 }
 
 .icon {
     width: 70px;
     margin-bottom: 20px;
+    display: flex;
 
 }
 
@@ -96,14 +99,24 @@ text-align: center;
     width: 50%;
 }
 
-.first-tow-box{
+.first-box{
     display: flex;
     gap: 3px;
     margin-top: 5px;
     align-items: center;
    
 }
-
+.second-tow-box{
+    display: flex;
+align-items: center;
+width: 150px;
+height: 150px;
+padding: 50px;
+border-radius: 3px;
+padding: 50px;
+   
+  
+}
 
 
 .author-img{
@@ -117,7 +130,7 @@ height: 100px;
     gap: 20px;
     align-items: center;
 }
-.profail-container{
+.profaile-container{
     display: flex;
     align-items: center;
     gap: 15px;
@@ -136,6 +149,10 @@ justify-content: space-around;
 width: 80%;
 margin: auto;
 background-color: red;
+padding: 20px;
+border-radius: 10px;
+margin-top: -30px;
+align-items: center;
 
 
 }
